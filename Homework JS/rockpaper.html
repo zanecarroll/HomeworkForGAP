@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+
+	
+
+</head>
+<body>
+
+
+
+<p>Player 1:</p>
+
+	<button type="button" id="p1r" onclick="myFunction1()" value="r">
+
+		<img src="https://webstockreview.net/images/boulder-clipart-hard-stone-20.png" width="40" ></button>
+
+
+	<button type="button" id="p1p" onclick="myFunction2()" value="p">
+
+		<img src="https://www.ikea.com/us/en/images/products/mala-drawing-paper-roll__0710263_PE727430_S5.JPG" width="40" ></button>
+
+
+
+	<button type="button" id="p1s" onclick="myFunction3()" value="s">
+
+		<img src="https://cdn.clipart.email/27a51dcf623e18678c88e1cd3853fc01_transparent-scissors-png-clipart-picture-gallery-yopriceville-_1349-1313.png" width="40"></button>
+
+
+
+<p>Player 2:</p>
+
+	<button type="button" id="p2r" onclick="myFunction4()" value="r"=>
+
+		<img src="https://webstockreview.net/images/boulder-clipart-hard-stone-20.png" width="40"></button>
+
+
+
+	<button type="button" id="p2p" onclick="myFunction5()" value="p">
+
+		<img src="https://www.ikea.com/us/en/images/products/mala-drawing-paper-roll__0710263_PE727430_S5.JPG" width="40"></button> 
+
+
+	<button type="button" id="p2s" onclick="myFunction6()" value="s">
+
+		<img src="https://cdn.clipart.email/27a51dcf623e18678c88e1cd3853fc01_transparent-scissors-png-clipart-picture-gallery-yopriceville-_1349-1313.png" width="40"></button>
+
+
+<p id="viewcounter"> Each Player Choose Rock, Paper, or Scissors</p>
+
+
+
+
+
+
+
+<button onclick="myFunction()">Who Wins?</button>
+
+
+
+
+
+
+
+<script>
+	
+
+var one = null;
+var two = null;
+
+
+
+
+
+
+function myFunction1() {
+
+		this.one = 'r';
+
+
+		console.log("hey" + this.one + this.two);
+		}
+
+
+
+function myFunction2() {
+
+		this.one = 'p';
+
+
+		console.log("hey" + this.one + this.two);
+}
+
+function myFunction3() {
+
+		this.one = 's';
+
+
+		console.log("hey" + this.one + this.two);
+
+}
+
+function myFunction4() {
+
+		this.two = 'r';
+
+
+		console.log("hey" + this.one + this.two);
+}
+
+function myFunction5() {
+	
+
+			this.two = 'p';
+
+
+			console.log("hey" + this.one + this.two);
+}
+
+function myFunction6() {
+
+
+		this.two = 's';
+
+
+		console.log("hey" + this.one + this.two);
+
+  
+}
+
+
+
+console.log("hey" + one + two);
+
+
+</script>
+
+
+
+<script src="assets/javascript/rockpaper1.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
